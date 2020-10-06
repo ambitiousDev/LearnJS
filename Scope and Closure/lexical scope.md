@@ -7,4 +7,9 @@
 
 ## 2 Phases
 - initial identifiers and blocks scope(compiler to scope manager)
-- assign value to the identifiers(engine to scopoe manager)
+- assign value to the identifiers(engine to scopoe manager
+
+
+
+## Immediately Invoked Function Expression(IIFE):
+``` (function(){})()```
