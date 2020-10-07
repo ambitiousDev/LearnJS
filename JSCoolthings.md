@@ -1,4 +1,4 @@
-## Immediately Invoked Function Expression(IIFE):
+# Immediately Invoked Function Expression(IIFE):
 ```js
 var eg = (function(){
     //function body
