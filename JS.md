@@ -30,3 +30,12 @@
 
 ###  It's important to know where closures appear in our programs, and what variables are included. We should manage these closures carefully so we're only holding onto what's minimally needed and not wasting memory.
 
+
+# Module
+
+## Definition:
+- The must be an outer scope, typically from a module factory function runnign at least once.
+
+- The module's inner scope must have at least one piece of hidden information that represents state for the module.
+
+-The module must return on its public API a reference to at least one function that has closure over hidden module state.
