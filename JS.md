@@ -39,3 +39,18 @@
 - The module's inner scope must have at least one piece of hidden information that represents state for the module.
 
 -The module must return on its public API a reference to at least one function that has closure over hidden module state.
+
+# Function
+
+- Function create with new does not cannot reference to the lex environment where its created, but the global.
+
+- Arrow function doesn't has `this`
+
+
+
+
+
+
+ 
+
+
