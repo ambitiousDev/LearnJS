@@ -1,0 +1,35 @@
+Line one
+    Line two
+        Line three
+            Line four
+For our discussion, d2w and 2dw are identical. After running either of these,
+appear again. Or, instead of undoing our change, we could repeat it with the
+dot command, which would delete the next two words.
+
+
+In the case of dw., the result of pressing u or . is subtly different. Here, the
+was dw—“delete word.” So if we wanted to restore the two words that
+ deleted, we’d have to undo twice: pressing uu (or 2u if you prefer).
+Pressing the dot command would just delete the next word rather than the
+next two.
+Now suppose that instead of deleting 
+delete three words. By a small error in judgment, we run d2w instead of
+d3w.
+
+What next? We can’t use the dot commW
+of four words to be deleted. So we could either back up and revise our count
+(ud3w) or continue by deleting the next word (dw).
+If, on the other hand, we had used the command dw. in the first place, we
+would have to repeat the dot command only one more time. Because our
+original change was simply dw, the u and . commands have more granularity.
+Each acts upon one word at a time.
+What next? We can’t use the dot ,command because that would cause a total
+of four words to be deleted. So we could either back up and revise our count
+(ud3w) or continue by deleting the next word (dw).
+If, on the other hand, we had used the command dw. in the first place, we
+would have to repeat the dot command only one more time. Because our
+original change was simply dw, the u and . commands have more granularity.
+Each acts upon one word at a time.
+
+
+
